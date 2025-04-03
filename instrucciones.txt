@@ -1,0 +1,20 @@
+# Instrucciones para ejecutar el proyecto de detección de objetos en Pacman
+
+## 1. Crear y activar el entorno Conda
+conda create --name pacman_env python=3.10
+conda activate pacman_env
+
+## 2. Instalar dependencias
+
+# Opción A - Usando Conda:
+conda install --file requirements_conda.txt
+
+# Opción B - Usando pip:
+pip install -r requirements_pip.txt
+
+## 3. Ejecutar el proyecto
+
+python pacman_game.py
+
+# O cualquier otro archivo principal como:
+# python pacman_final.py
